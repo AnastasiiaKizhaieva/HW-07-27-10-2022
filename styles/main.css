@@ -4,13 +4,15 @@ body {
 
 .content {
 	margin:30px;
-	width: 750px;
+	//width: 750px;
 }
 	
 .block {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
+	padding-left: 0px;
+	margin-left: 0px;
 }
 	
 ul {
@@ -20,7 +22,10 @@ ul {
 li {
 	border: 1px solid #eeeeee;
 	border-radius: 10px;
-	margin-left:30px;
+	
+	margin-left: 10px;
+	margin-right: 10px;
+	
 	background-color: #E7E7E7;
 }
 
